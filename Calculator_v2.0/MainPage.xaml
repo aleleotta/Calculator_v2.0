@@ -28,22 +28,22 @@
                     <Border StrokeShape="RoundRectangle 10,10,10,10" BackgroundColor="White" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Padding="10">
                         <Label x:Name="calc_display" Text="0" FontSize="20" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
                     </Border>
-                    <Button x:Name="7_button" Text="7" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="1" Grid.Column="0"/>
-                    <Button x:Name="8_button" Text="8" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="1" Grid.Column="1"/>
-                    <Button x:Name="9_button" Text="9" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="1" Grid.Column="2"/>
-                    <Button x:Name="div_button" Text="/" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Column="3"/>
-                    <Button x:Name="4_button" Text="4" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="2" Grid.Column="0"/>
-                    <Button x:Name="5_button" Text="5" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="2" Grid.Column="1"/>
-                    <Button x:Name="6_button" Text="6" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="2" Grid.Column="2"/>
-                    <Button x:Name="mult_button" Text="*" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="2" Grid.Column="3"/>
-                    <Button x:Name="1_button" Text="1" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="3" Grid.Column="0"/>
-                    <Button x:Name="2_button" Text="2" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="3" Grid.Column="1"/>
-                    <Button x:Name="3_button" Text="3" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="3" Grid.Column="2"/>
-                    <Button x:Name="sub_button" Text="-" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="3" Grid.Column="3"/>
-                    <Button x:Name="cancel_button" Text="C" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="4" Grid.Column="0"/>
-                    <Button x:Name="0_button" Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="4" Grid.Column="1"/>
-                    <Button x:Name="equal_button" Text="=" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="4" Grid.Column="2"/>
-                    <Button x:Name="add_button" Text="+" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="4" Grid.Column="3"/>
+                    <Button x:Uid="7_button" Text="7" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="1" Grid.Column="0"/>
+                    <Button x:Uid="8_button" Text="8" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="1" Grid.Column="1"/>
+                    <Button x:Uid="9_button" Text="9" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="1" Grid.Column="2"/>
+                    <Button x:Uid="div_button" Text="/" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="1" Grid.Column="3"/>
+                    <Button x:Uid="4_button" Text="4" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="2" Grid.Column="0"/>
+                    <Button x:Uid="5_button" Text="5" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="2" Grid.Column="1"/>
+                    <Button x:Uid="6_button" Text="6" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="2" Grid.Column="2"/>
+                    <Button x:Uid="mult_button" Text="*" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="2" Grid.Column="3"/>
+                    <Button x:Uid="1_button" Text="1" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="3" Grid.Column="0"/>
+                    <Button x:Uid="2_button" Text="2" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="3" Grid.Column="1"/>
+                    <Button x:Uid="3_button" Text="3" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="3" Grid.Column="2"/>
+                    <Button x:Uid="sub_button" Text="-" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="3" Grid.Column="3"/>
+                    <Button x:Uid="cancel_button" Text="C" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="4" Grid.Column="0"/>
+                    <Button x:Uid="0_button" Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="numbers" Grid.Row="4" Grid.Column="1"/>
+                    <Button x:Uid="equal_button" Text="=" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="4" Grid.Column="2"/>
+                    <Button x:Uid="add_button" Text="+" BackgroundColor="#3894FD" MaximumHeightRequest="45" Padding="10" Clicked="operations" Grid.Row="4" Grid.Column="3"/>
                 </Grid>
             </Border>
         </VerticalStackLayout>
