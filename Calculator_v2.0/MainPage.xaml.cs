@@ -8,9 +8,9 @@
             InitializeComponent();
         }
 
-        public void operations() { }
-        public void numbers() { }
-        public void display() { }
+        public void operations(object sender, EventArgs e) { }
+        public void numbers(object sender, EventArgs e) { }
+        public void display(object sender, EventArgs e) { }
 
     }
 }
