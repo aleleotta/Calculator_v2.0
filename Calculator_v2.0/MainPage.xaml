@@ -10,7 +10,7 @@
             Padding="30,0"
             HorizontalOptions="Center"
             VerticalOptions="Center">
-            <Border StrokeShape="RoundRectangle 10,10,10,10" MinimumHeightRequest="300" MinimumWidthRequest="200" Padding="7">
+            <Border StrokeShape="RoundRectangle 10,10,10,10" BackgroundColor="#C5DFFD" MinimumHeightRequest="300" MinimumWidthRequest="200" Padding="7">
                 <Grid RowSpacing="5" ColumnSpacing="5">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -25,25 +25,25 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Padding="10">
+                    <Border StrokeShape="RoundRectangle 10,10,10,10" BackgroundColor="White" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Padding="10">
                         <Label Text="0" FontSize="20" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
                     </Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="1" Grid.Column="0"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="1" Grid.Column="1"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="1" Grid.Column="2"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="1" Grid.Column="3"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="2" Grid.Column="0"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="2" Grid.Column="1"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="2" Grid.Column="2"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="2" Grid.Column="3"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="3" Grid.Column="0"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="3" Grid.Column="1"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="3" Grid.Column="2"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="3" Grid.Column="3"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="4" Grid.Column="0"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="4" Grid.Column="1"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="4" Grid.Column="2"></Border>
-                    <Border StrokeShape="RoundRectangle 10,10,10,10" Padding="10" Grid.Row="4" Grid.Column="3"></Border>
+                    <Button Text="7" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="1" Grid.Column="0"></Button>
+                    <Button Text="8" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="1" Grid.Column="1"></Button>
+                    <Button Text="9" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="1" Grid.Column="2"></Button>
+                    <Button Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="1" Grid.Column="3"></Button>
+                    <Button Text="4" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="2" Grid.Column="0"></Button>
+                    <Button Text="5" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="2" Grid.Column="1"></Button>
+                    <Button Text="6" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="2" Grid.Column="2"></Button>
+                    <Button Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="2" Grid.Column="3"></Button>
+                    <Button Text="1" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="3" Grid.Column="0"></Button>
+                    <Button Text="2" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="3" Grid.Column="1"></Button>
+                    <Button Text="3" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="3" Grid.Column="2"></Button>
+                    <Button Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="3" Grid.Column="3"></Button>
+                    <Button Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="4" Grid.Column="0"></Button>
+                    <Button Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="4" Grid.Column="1"></Button>
+                    <Button Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="4" Grid.Column="2"></Button>
+                    <Button Text="0" BackgroundColor="#3894FD" MaximumHeightRequest="30" Padding="10" Grid.Row="4" Grid.Column="3"></Button>
                 </Grid>
             </Border>
         </VerticalStackLayout>
